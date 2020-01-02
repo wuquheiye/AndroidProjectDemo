@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_margin="12dp"
+            android:text="登录名:" />
+
+        <EditText
+            android:id="@+id/L_user"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="请输入用户名"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_margin="12dp"
+            android:text="密码:" />
+
+        <EditText
+            android:id="@+id/L_password"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="请输入密码"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_margin="12dp"
+            android:text="确认密码:" />
+
+        <EditText
+            android:id="@+id/L_password1"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="再次输入密码"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_margin="12dp"
+            android:text="手机号" />
+
+        <EditText
+            android:id="@+id/L_phone"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="输入你的手机号" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_margin="12dp"
+            android:text="激活码" />
+
+        <EditText
+            android:id="@+id/L_VsCode"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="输入你的激活码" />
+    </TableRow>
+
+
+        <TableRow android:layout_marginTop="20dp">
+                <TextView
+                    android:id="@+id/un"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_margin="12dp"
+                    android:text="请选择公司"
+                    />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="12dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"/>
+
+        </TableRow>
+    <TableRow android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/section"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_margin="12dp"
+            android:text="请选择部门"
+            />
+
+        <Spinner
+            android:id="@+id/sectionValue"
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"/>
+
+    </TableRow>
+
+    <LinearLayout android:layout_marginTop="12dp">
+
+
+        <Button
+            android:id="@+id/L_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:layout_weight="1"
+            android:background="#00CED1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Register" />
+
+
+    </LinearLayout>
+
+</TableLayout>
